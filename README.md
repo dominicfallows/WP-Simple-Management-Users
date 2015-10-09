@@ -2,11 +2,16 @@
 Allow selected user types to become management users with the capabilities you choose
 
 ## Installation instructions
+1. Either clone this plugin into a folder within your WordPress plugin folder
+or
 1. Download the zip from Github and extract (with its folder) into your WordPress Plugins folder
 2. Edit the management roles, management capabilities and user roles that you would like to handle at the top of the `wp-simple-management-users.php` file
 3. Enable the plugin and you should now see the extra management capabilities throughout the Admin area for the management user role types you selected
 
 **Note: The plugin will remove the added capabilities on deactivation. Be aware that if you duplicate capabilities that other plugins also add - then these would also be removed when deactivating this plugin. You could resolve this by reactivating your other plugins.**
+
+## Updates
+For the time being I will not be hosting this plugin on the WordPress Plugins directory. You can obtain updates automatically for this plugin by using the [GitHub Wordpress Updater](https://github.com/afragen/github-updater) (or by manually updating your clone of the repo).
 
 ## License
 Copyright (c) 2015 Dominic Fallows (http://dominicfallows.uk)
@@ -19,5 +24,5 @@ You should have received a copy of the GNU General Public License along with thi
 
 ## Inspiration and Credits
 Thanks to the following for inspiration:
-https://gist.github.com/leonardomdornelas/5746247
-https://gist.github.com/chrisguitarguy/1804462
+- https://gist.github.com/leonardomdornelas/5746247
+- https://gist.github.com/chrisguitarguy/1804462

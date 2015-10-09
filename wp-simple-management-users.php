@@ -2,6 +2,7 @@
   /*
     Plugin Name: WP Simple Management Users
     Plugin URI: https://github.com/dominicfallows/wp-simple-management-users
+    GitHub Plugin URI: https://github.com/dominicfallows/wp-simple-management-users
     Description: Allow selected user types to become management users with the capabilities you choose
     Version: 0.1.0
     Author: Dominic Fallows
